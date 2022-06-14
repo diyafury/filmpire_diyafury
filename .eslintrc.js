@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     // "indent": ["error", 4],
     // "react/jsx-indent": ["error", 4],
+    'no-param-reassign': ['error', { props: false }],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/jsx-no-useless-fragment': 0,
     'no-unused-vars': 'warn',

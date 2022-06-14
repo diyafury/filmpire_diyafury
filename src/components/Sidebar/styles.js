@@ -10,7 +10,8 @@ export default makeStyles((theme) => ({
     width: '70%',
   },
   genreImages: {
-    filter: theme.palette.mode === 'dark' ? 'invert(1)' : 'dark',
+    // filter: theme.palette.mode === 'dark' ? 'invert(1)' : 'dark',
+    filter: theme.palette.mode === 'dark' && 'invert(1)',
     marginRight: '20px',
   },
   links: {
