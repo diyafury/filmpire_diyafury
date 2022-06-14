@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MovieInformation() {
+const MovieInformation = () => {
   console.log('Movie Information');
 
   return (
@@ -8,6 +8,6 @@ function MovieInformation() {
       MovieInformation
     </div>
   );
-}
+};
 
 export default MovieInformation;

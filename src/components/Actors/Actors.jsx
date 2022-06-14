@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Actors() {
+const Actors = () => {
   console.log('Actors');
 
   return (
@@ -8,6 +8,6 @@ function Actors() {
       Actors
     </div>
   );
-}
+};
 
 export default Actors;
