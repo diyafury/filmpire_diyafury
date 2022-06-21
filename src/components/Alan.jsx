@@ -16,7 +16,7 @@ const useAlan = () => {
     alanBtn({
       key: 'f61a1641b63de7382008a80b49f589532e956eca572e1d8b807a3e2338fdd0dc/stage',
       onCommand: ({ command, mode, genres, genreOrCategory, query }) => {
-        if (command === 'ChooseGenre') {
+        if (command === 'chooseGenre') {
           const foundGenre = genres.find((g) => g.name.toLowerCase() === genreOrCategory.toLowerCase());
 
           if (foundGenre) {
